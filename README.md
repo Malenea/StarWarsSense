@@ -101,3 +101,5 @@ Frameworks that would probably be used:
   reloading the entire table view.
   - The triggered event handler could use a releasing pool and additional control over not adding same observers over and over.
   - Some minor improvements on code repeat.
+  - Add a circular referencing across all categories to allow user to circle through the categories from one reference to the other
+  (i.e: tap and move to `Luke` -> tap and move to `Human` -> tap and move to `Princess Leia` -> tap and move to `Tatooine`...etc)
