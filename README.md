@@ -55,13 +55,15 @@ single one of them.
 
 This is the basic overview of the `PeopleViewController`:
 
+<pre>
 *--------------------*        *--------------------*        *--------------------* -----> PeopleViewController + Category UI & ViewModels
 |                    |        |                    |        |                    |
 |  UIViewController  | -----> |  ViewController    | -----> | ItemViewController | -----> PlanetsViewController + Category UI & ViewModels
 |                    |        |                    |        |                    |
 *--------------------*        *--------------------*        *--------------------* -----> VehiclesViewController + Category UI & ViewModels
                                  + Style protocols             + Shared UI setup
-                                 
+</pre>
+
 Adding a new category would be as simple as inheriting from `ItemViewController`, create the `ViewModel` and the `Model`
 and add the case for that category in the `APIHandler` and `TabBar`.
 
