@@ -62,7 +62,7 @@ extension VehiclesViewModel: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: PeopleCell.reuseIdentifier, for: indexPath) as? PeopleCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: VehiclesCell.reuseIdentifier, for: indexPath) as? VehiclesCell else { return UITableViewCell() }
         if let results = vehicles[indexPath.section]?.results {
             cell.updateCell(type: .vehicles(results[indexPath.row]))
         }

@@ -82,6 +82,8 @@ private extension ItemViewController {
     func makeTableView() -> TableView {
         let tableView = TableView()
         tableView.register(PeopleCell.self, forCellReuseIdentifier: PeopleCell.reuseIdentifier)
+        tableView.register(PlanetsCell.self, forCellReuseIdentifier: PlanetsCell.reuseIdentifier)
+        tableView.register(VehiclesCell.self, forCellReuseIdentifier: VehiclesCell.reuseIdentifier)
         tableView.delegate = self
         tableView.sectionHeaderHeight = 0.0
         tableView.sectionFooterHeight = 0.0

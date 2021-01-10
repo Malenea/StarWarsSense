@@ -9,14 +9,14 @@
 import Foundation
 
 // MARK: - People items
-public struct People: Codable {
+public struct People: Decodable {
     let count: Int
     let next: String?
     let previous: String?
     let results: [Character]
 }
 
-public struct Character: Codable {
+public struct Character: Decodable {
     let name: String
     let height: String
     let mass: String
@@ -37,14 +37,14 @@ public struct Character: Codable {
 
 
 // MARK: - Planets items
-public struct Planets: Codable {
+public struct Planets: Decodable {
     let count: Int
     let next: String?
     let previous: String?
     let results: [Planet]
 }
 
-public struct Planet: Codable {
+public struct Planet: Decodable {
     let name: String
     let rotation_period: String
     let orbital_period: String
@@ -62,14 +62,14 @@ public struct Planet: Codable {
 }
 
 // MARK: - Vehicles items
-public struct Vehicles: Codable {
+public struct Vehicles: Decodable {
     let count: Int
     let next: String?
     let previous: String?
     let results: [Vehicle]
 }
 
-public struct Vehicle: Codable {
+public struct Vehicle: Decodable {
     let name: String
     let model: String
     let manufacturer: String
@@ -89,7 +89,7 @@ public struct Vehicle: Codable {
 }
 
 // MARK: - Films
-public struct Film: Codable {
+public struct Film: Decodable {
     let title: String
     let episode_id: Int
     let opening_crawl: String
@@ -107,7 +107,7 @@ public struct Film: Codable {
 }
 
 // MARK: - Specie
-public struct Specie: Codable {
+public struct Specie: Decodable {
     let name: String
     let classification: String
     let designation: String
@@ -126,7 +126,7 @@ public struct Specie: Codable {
 }
 
 // MARK: - Starship
-public struct Starship: Codable {
+public struct Starship: Decodable {
     let name: String
     let model: String
     let manufacturer: String

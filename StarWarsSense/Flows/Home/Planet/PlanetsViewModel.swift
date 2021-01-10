@@ -62,7 +62,7 @@ extension PlanetsViewModel: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: PeopleCell.reuseIdentifier, for: indexPath) as? PeopleCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: PlanetsCell.reuseIdentifier, for: indexPath) as? PlanetsCell else { return UITableViewCell() }
         if let results = planets[indexPath.section]?.results {
             cell.updateCell(type: .planets(results[indexPath.row]))
         }
