@@ -92,6 +92,7 @@ Frameworks that would probably be used:
 ## Known Issues
 
   - The app works perfectly on simulator, but there's a minor UI issue on some devices where the table views are darker than expected.
+  - Only very basic UI and unit tests both for a simple flow for UI and API test for unit.
 
 ## Improvements
 
