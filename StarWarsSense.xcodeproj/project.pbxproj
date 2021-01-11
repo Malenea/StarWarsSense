@@ -69,9 +69,28 @@
 		6DD1143425AA7B2A00E9966E /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1143325AA7B2A00E9966E /* UIImage+Extensions.swift */; };
 		6DE1BA1325ABC4AF0074CCB0 /* PlanetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1BA1225ABC4AF0074CCB0 /* PlanetsCell.swift */; };
 		6DE1BA1625ABC4D20074CCB0 /* VehiclesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1BA1525ABC4D20074CCB0 /* VehiclesCell.swift */; };
+		6DE1BA1F25ABCA6E0074CCB0 /* StarWarsSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1BA1E25ABCA6E0074CCB0 /* StarWarsSenseTests.swift */; };
+		6DE1BA2F25ABCA970074CCB0 /* StarWarsSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1BA2E25ABCA970074CCB0 /* StarWarsSenseUITests.swift */; };
 		FAE973302528DE01007B685E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9732F2528DE01007B685E /* AppDelegate.swift */; };
 		FAE973392528DE03007B685E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE973382528DE03007B685E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DE1BA2125ABCA6E0074CCB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE973242528DE01007B685E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE9732B2528DE01007B685E;
+			remoteInfo = StarWarsSense;
+		};
+		6DE1BA3125ABCA970074CCB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE973242528DE01007B685E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE9732B2528DE01007B685E;
+			remoteInfo = StarWarsSense;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6D025BB425AA198D00CC1B44 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
@@ -136,6 +155,12 @@
 		6DD1143325AA7B2A00E9966E /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		6DE1BA1225ABC4AF0074CCB0 /* PlanetsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsCell.swift; sourceTree = "<group>"; };
 		6DE1BA1525ABC4D20074CCB0 /* VehiclesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesCell.swift; sourceTree = "<group>"; };
+		6DE1BA1C25ABCA6E0074CCB0 /* StarWarsSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE1BA1E25ABCA6E0074CCB0 /* StarWarsSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsSenseTests.swift; sourceTree = "<group>"; };
+		6DE1BA2025ABCA6E0074CCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE1BA2C25ABCA970074CCB0 /* StarWarsSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE1BA2E25ABCA970074CCB0 /* StarWarsSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsSenseUITests.swift; sourceTree = "<group>"; };
+		6DE1BA3025ABCA970074CCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE9732C2528DE01007B685E /* StarWarsSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE9732F2528DE01007B685E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE973382528DE03007B685E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +168,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6DE1BA1925ABCA6E0074CCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE1BA2925ABCA970074CCB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE973292528DE01007B685E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,10 +433,30 @@
 			path = Vehicles;
 			sourceTree = "<group>";
 		};
+		6DE1BA1D25ABCA6E0074CCB0 /* StarWarsSenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE1BA1E25ABCA6E0074CCB0 /* StarWarsSenseTests.swift */,
+				6DE1BA2025ABCA6E0074CCB0 /* Info.plist */,
+			);
+			path = StarWarsSenseTests;
+			sourceTree = "<group>";
+		};
+		6DE1BA2D25ABCA970074CCB0 /* StarWarsSenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE1BA2E25ABCA970074CCB0 /* StarWarsSenseUITests.swift */,
+				6DE1BA3025ABCA970074CCB0 /* Info.plist */,
+			);
+			path = StarWarsSenseUITests;
+			sourceTree = "<group>";
+		};
 		FAE973232528DE01007B685E = {
 			isa = PBXGroup;
 			children = (
 				FAE9732E2528DE01007B685E /* StarWarsSense */,
+				6DE1BA1D25ABCA6E0074CCB0 /* StarWarsSenseTests */,
+				6DE1BA2D25ABCA970074CCB0 /* StarWarsSenseUITests */,
 				FAE9732D2528DE01007B685E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -406,6 +465,8 @@
 			isa = PBXGroup;
 			children = (
 				FAE9732C2528DE01007B685E /* StarWarsSense.app */,
+				6DE1BA1C25ABCA6E0074CCB0 /* StarWarsSenseTests.xctest */,
+				6DE1BA2C25ABCA970074CCB0 /* StarWarsSenseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -428,6 +489,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6DE1BA1B25ABCA6E0074CCB0 /* StarWarsSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE1BA2325ABCA6E0074CCB0 /* Build configuration list for PBXNativeTarget "StarWarsSenseTests" */;
+			buildPhases = (
+				6DE1BA1825ABCA6E0074CCB0 /* Sources */,
+				6DE1BA1925ABCA6E0074CCB0 /* Frameworks */,
+				6DE1BA1A25ABCA6E0074CCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE1BA2225ABCA6E0074CCB0 /* PBXTargetDependency */,
+			);
+			name = StarWarsSenseTests;
+			productName = StarWarsSenseTests;
+			productReference = 6DE1BA1C25ABCA6E0074CCB0 /* StarWarsSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DE1BA2B25ABCA970074CCB0 /* StarWarsSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE1BA3325ABCA970074CCB0 /* Build configuration list for PBXNativeTarget "StarWarsSenseUITests" */;
+			buildPhases = (
+				6DE1BA2825ABCA970074CCB0 /* Sources */,
+				6DE1BA2925ABCA970074CCB0 /* Frameworks */,
+				6DE1BA2A25ABCA970074CCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE1BA3225ABCA970074CCB0 /* PBXTargetDependency */,
+			);
+			name = StarWarsSenseUITests;
+			productName = StarWarsSenseUITests;
+			productReference = 6DE1BA2C25ABCA970074CCB0 /* StarWarsSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		FAE9732B2528DE01007B685E /* StarWarsSense */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE973402528DE03007B685E /* Build configuration list for PBXNativeTarget "StarWarsSense" */;
@@ -451,10 +548,18 @@
 		FAE973242528DE01007B685E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = OlivierConan;
 				TargetAttributes = {
+					6DE1BA1B25ABCA6E0074CCB0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FAE9732B2528DE01007B685E;
+					};
+					6DE1BA2B25ABCA970074CCB0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FAE9732B2528DE01007B685E;
+					};
 					FAE9732B2528DE01007B685E = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -474,11 +579,27 @@
 			projectRoot = "";
 			targets = (
 				FAE9732B2528DE01007B685E /* StarWarsSense */,
+				6DE1BA1B25ABCA6E0074CCB0 /* StarWarsSenseTests */,
+				6DE1BA2B25ABCA970074CCB0 /* StarWarsSenseUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6DE1BA1A25ABCA6E0074CCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE1BA2A25ABCA970074CCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE9732A2528DE01007B685E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +613,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6DE1BA1825ABCA6E0074CCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE1BA1F25ABCA6E0074CCB0 /* StarWarsSenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE1BA2825ABCA970074CCB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE1BA2F25ABCA970074CCB0 /* StarWarsSenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE973282528DE01007B685E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,7 +699,106 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6DE1BA2225ABCA6E0074CCB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE9732B2528DE01007B685E /* StarWarsSense */;
+			targetProxy = 6DE1BA2125ABCA6E0074CCB0 /* PBXContainerItemProxy */;
+		};
+		6DE1BA3225ABCA970074CCB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE9732B2528DE01007B685E /* StarWarsSense */;
+			targetProxy = 6DE1BA3125ABCA970074CCB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6DE1BA2425ABCA6E0074CCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = StarWarsSenseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.StarWarsSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsSense.app/StarWarsSense";
+			};
+			name = Debug;
+		};
+		6DE1BA2525ABCA6E0074CCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = StarWarsSenseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.StarWarsSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsSense.app/StarWarsSense";
+			};
+			name = Release;
+		};
+		6DE1BA3425ABCA970074CCB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = StarWarsSenseUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.StarWarsSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarWarsSense;
+			};
+			name = Debug;
+		};
+		6DE1BA3525ABCA970074CCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = StarWarsSenseUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.StarWarsSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarWarsSense;
+			};
+			name = Release;
+		};
 		FAE9733E2528DE03007B685E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -716,6 +952,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6DE1BA2325ABCA6E0074CCB0 /* Build configuration list for PBXNativeTarget "StarWarsSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE1BA2425ABCA6E0074CCB0 /* Debug */,
+				6DE1BA2525ABCA6E0074CCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE1BA3325ABCA970074CCB0 /* Build configuration list for PBXNativeTarget "StarWarsSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE1BA3425ABCA970074CCB0 /* Debug */,
+				6DE1BA3525ABCA970074CCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAE973272528DE01007B685E /* Build configuration list for PBXProject "StarWarsSense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

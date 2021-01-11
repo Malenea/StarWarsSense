@@ -17,6 +17,7 @@ public enum Endpoint {
 }
 
 extension Endpoint {
+    /// https://swapi.dev/api/ certificate got deprecated during the test, so had to switch to another url using the same API
     var urlString: String {
         switch self {
             case .people:
